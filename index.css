@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+}
+div{
+    padding: 30px 300px;
+}
+p{
+    background: yellow;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+.a{
+    padding-top: 50px;
+    animation: apple 3s ease-in-out;
+}
+@keyframes apple{
+    0%{
+        transform: translateY(-100%);
+    }
+}
+.b{
+    animation: ball 3s ease-in-out; 
+}
+@keyframes ball{
+    0%{
+        transform: translateX(-100%);
+    }
+}
+.c{
+    animation: cat 3s ease-in-out; 
+}
+@keyframes cat{
+    0%{
+        transform: translateX(100%);
+    }
+}
+.d{
+    animation: dog 3s ease-in-out;
+}
+@keyframes dog{
+    0%{
+        transform: translateY(100%);
+    }
+}
